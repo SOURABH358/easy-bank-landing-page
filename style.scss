@@ -16,6 +16,8 @@ body{
     overflow-x:hidden;
     width:100%;
     min-height: 100vh;
+    margin:0px;
+    padding:0px;
     font-size:18px;
     background-color: $Very-Light-Gray;
 }
@@ -330,6 +332,7 @@ body{
     .hero{
         width:100%;
         margin-top:330px;
+        margin-bottom: 100px;
         margin-left:0;
         padding:0px 30px;
         text-align: center;
@@ -347,6 +350,7 @@ body{
    .hero-image1{
        top:0;
        left:0;
+       width: 100%;
    }
    .hero-image2{
        width:90%;

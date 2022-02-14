@@ -7,7 +7,7 @@ const heroImage1 = document.querySelector('.hero-image1 img')
 let widthMatch = window.matchMedia("(max-width: 376px)");
 widthMatch.addEventListener('change',(mm)=>{
     if(mm.matches){
-        heroImage1.setAttribute('src','/images/bg-intro-mobile.svg');
+        heroImage1.setAttribute('src','./images/bg-intro-mobile.svg');
         bars.addEventListener('click',()=>{
             overlay.style.display = "block";
             ul.style.display = "block";
@@ -22,7 +22,7 @@ widthMatch.addEventListener('change',(mm)=>{
         })
     }
     else{
-        heroImage1.setAttribute('src','/images/bg-intro-desktop.svg');
+        heroImage1.setAttribute('src','./images/bg-intro-desktop.svg');
     }
 })
 console.log(heroImage1);
